@@ -2,6 +2,9 @@ import React from 'react'
 
 export const Footer = () => {
   return (
-    <div className='h-[8rem]'>Footer</div>
+    <footer className='h-[8rem] bg-[#BE3144] border-t-2 border-white'>
+
+
+    </footer>
   )
 }
