@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import { Footer } from './component/Footer'
 import { About } from './pages/About'
 import { Services } from './pages/Services'
+import { Contact } from './pages/Contact'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route exact path='/' element={<Home/>}/>
         <Route exact path='/about' element={<About/>}/>
         <Route exact path='services' element={<Services/>}/>
+        <Route exact path='contact' element={<Contact/>}/>
       </Routes>
       <Footer/>
     </Router>

@@ -9,7 +9,7 @@ import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 export const About = () => {
     return (
         <section className='flex justify-center flex-col z-1'>
-            <div className='h-[80vh] bg-cover bg-center w-[100%] bg-fixed ' style={{ backgroundImage: `url(${topImg})` }}></div>
+            <div className='h-[60vh] bg-cover bg-center w-[100%] bg-fixed max-lg:bg-scroll' style={{ backgroundImage: `url(${topImg})` }}></div>
 
             <div className='bg-slate-300  pt-12 flex justify-center items-center p-12 max-lg:flex-col max-sm:px-2'>
                 <div className='w-[20rem] flex flex-col items-center'>

@@ -6,10 +6,10 @@ import { outServices } from '../helper/Helper'
 export const Services = () => {
   return (
     <section >
-      <div className='h-[60vh] bg-center bg-cover' style={{ backgroundImage: `url(${serviceImgHero})` }}></div>
+      <div className='h-[60vh] bg-center bg-cover bg-fixed' style={{ backgroundImage: `url(${serviceImgHero})` }}></div>
 
       {/*=====ServicesSection=====*/}
-      <div className='flex flex-col px-20 py-12 items-center'>
+      <div className='flex flex-col px-20 py-8 items-center'>
         <div className='mb-4 flex flex-col items-center'>
           <h3 className='text-4xl mb-4 font-semibold uppercase'>SERVICES</h3>
           <div className='border-[#e84d62] w-20 border-4 mt-[-8px]'></div>
@@ -27,9 +27,9 @@ export const Services = () => {
           <div className='grid grid-cols-4 justify-items-center mx-auto mt-8'>
           {outServices.map((services,index) => {
             return(
-              <div className='bg-[#e84d62] w-60 h-60 p-4 flex flex-col items-center rounded-md'>
+              <div className='bg-[#e84d62] w-60 h-72 p-4 flex flex-col items-center rounded-md hover:scale-105 duration-300'>
                 <img className='w-16' src={services.icon}/>
-                <h4 className='font-bold text-[1.6rem] uppercase text-white'>{services.name}</h4>
+                <h4 className='font-bold text-[1.6rem] uppercase text-white text-center '>{services.name}</h4>
                 <p>{services.desc}</p>
               </div>
             )
