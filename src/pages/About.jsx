@@ -34,13 +34,13 @@ export const About = () => {
                 </div>
             </div>
             {/* =====mvv Section===== */}
-            <div className='flex flex-row-reverse px-20 py-12 bg-slate-100'>
-                <img className='h-[18rem] border-[#e84d62] border-8' src={AboutMVV} />
+            <div className='flex flex-row-reverse px-20 justify-center items-center py-12 bg-slate-100  max-lg:flex-col gap-6'>
+                <img className='w-[20rem] border-[#e84d62] border-8' src={AboutMVV} />
 
                 <div>
 
                 </div>
-                <p className='ml-4'>
+                <p className=''>
                     <b>Vision:</b>
                     To be the leading automotive repair and maintenance enterprise, recognized for excellence, innovation, and trust, ensuring safe and high-performance vehicles for all our customers.
                     <br /><br />

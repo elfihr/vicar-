@@ -12,10 +12,10 @@ const Home = () => {
         <h3 className=' uppercase text-8xl font-bold'>ViCari</h3>
         <h4 className='text-5xl'>Car Mechanic</h4>
         <button className='mt-4 text-2xl bg-[#BE3144] p-[1rem] rounded-md hover:bg-[#e84d62] hover:scale-105 active:scale-95 duration-300'>
-          <div className='flex items-center '>
+          <a href='./contact' className='flex items-center '>
             <CallIcon sx={{fontSize:48}} />
             <h4 className='ml-2 font-bold text-[2.8rem] mb-[0.3rem]'>Contact Us</h4>
-          </div>
+          </a>
         </button>
       </div>
 
